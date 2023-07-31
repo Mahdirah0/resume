@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { PROJECT } from '../constants';
 
 export const Projects = () => {
@@ -7,7 +8,12 @@ export const Projects = () => {
       <div className='space-y-4'>
         {PROJECT.map((project) => (
           <div key={project.title}>
-            <h1 className='font-bold mb-1'>{project.title}</h1>
+            <div className='flex items-center mb-1'>
+              <h1 className='font-bold mr-2'>{project.title}</h1>
+              <Link to={`https://${project.link}`} target='_blank'>
+                <span className='text-xs font-light'>({project.link})</span>
+              </Link>
+            </div>
             <div>
               <ul className='list-disc text-sm'>
                 {project.facts.map((item) => (

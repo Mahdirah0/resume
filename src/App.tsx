@@ -15,11 +15,12 @@ export const App = () => {
 
   return (
     <div className='flex flex-col justify-center items-center w-screen h-screen '>
-      <button className='btn btn-primary btn-wide my-10' onClick={handlePrint}>
-        <IconPrinter />
-        Print this out!
-      </button>
-      <div className='w-screen h-full flex items-center justify-center mb-20'>
+      <div className='fixed bottom-5 right-5'>
+        <button className='btn btn-primary rounded-full' onClick={handlePrint}>
+          <IconPrinter />
+        </button>
+      </div>
+      <div className='w-screen h-full flex items-center justify-center'>
         <div
           className='w-[816px] min-h-[1056px] bg-white relative text-black'
           ref={componentRef}

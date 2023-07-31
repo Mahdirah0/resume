@@ -1,8 +1,7 @@
 export const HEADING_FONT_SIZE = 12;
-export const GITHUB_URL = 'https://github.com/Mahdirah0';
-export const LINKED_IN_URL =
-  'https://www.linkedin.com/in/mahdi-rahman-14383420a/';
-export const PORTFOLIO_URL = 'https://mahdirah0.netlify.app/';
+export const GITHUB_URL = 'github.com/Mahdirah0';
+export const LINKED_IN_URL = 'www.linkedin.com/in/mahdi-rahman-14383420a/';
+export const PORTFOLIO_URL = 'mahdirah0.netlify.app/';
 export const SKILLS_ARRAY = [
   'TypeScript',
   'Javascript',
@@ -39,7 +38,7 @@ export const PROJECT = [
       'Developed a movie catalog app with movieDB API integration, implementing React for a user-friendly interface and responsive design',
       'Utilized Typescript to enhance code reliability, resulting in a robust and dependable application',
     ],
-    link: '',
+    link: 'github.com/Mahdirah0/movie-app',
   },
   {
     title: 'A* Pathfinding Visualizer',
@@ -48,7 +47,7 @@ export const PROJECT = [
       'Incorporated Typescript to ensure code reliability and reduce bugs',
       'Displayed shortest path between two nodes',
     ],
-    link: '',
+    link: 'github.com/Mahdirah0/pathfinding',
   },
   {
     title: 'Restaurant Landing Website',
@@ -56,7 +55,7 @@ export const PROJECT = [
       'Developed a landing website presenting a restaurant menu, captivating story, and upcoming events using HTML and CSS',
       'Ensured a responsive design to deliver an optimal experience across various devices',
     ],
-    link: '',
+    link: 'github.com/Mahdirah0/restaurant-website',
   },
   {
     title: 'Personal Portfolio',
@@ -64,7 +63,7 @@ export const PROJECT = [
       'Developed a Personal Portfolio using React, highlighting personal projects',
       'Styled the website with Tailwind CSS for a modern and appealing look',
     ],
-    link: '',
+    link: 'github.com/Mahdirah0/portfolio',
   },
   {
     title: 'Resume Website',
@@ -72,6 +71,6 @@ export const PROJECT = [
       'Created a CV/Resume website using React for the user interface',
       'Styled the website with Tailwind CSS for an appealing design',
     ],
-    link: '',
+    link: 'github.com/Mahdirah0/resume',
   },
 ];

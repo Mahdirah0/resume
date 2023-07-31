@@ -21,7 +21,7 @@ export const Top = () => {
         <div>|</div>
         <span className=''>
           <Link
-            to={GITHUB_URL}
+            to={`https://${GITHUB_URL}`}
             target='_blank'
             className='flex text-xs items-center justify-center'
           >
@@ -32,7 +32,7 @@ export const Top = () => {
         <div>|</div>
         <span>
           <Link
-            to={LINKED_IN_URL}
+            to={`https://${LINKED_IN_URL}`}
             target='_blank'
             className='flex text-xs items-center justify-center'
           >
@@ -43,7 +43,7 @@ export const Top = () => {
         <div>|</div>
         <span>
           <Link
-            to={PORTFOLIO_URL}
+            to={`https://${PORTFOLIO_URL}`}
             target='_blank'
             className='flex text-xs items-center justify-center'
           >
