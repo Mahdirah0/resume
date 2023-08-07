@@ -2,16 +2,39 @@ export const HEADING_FONT_SIZE = 12;
 export const GITHUB_URL = 'github.com/Mahdirah0';
 export const LINKED_IN_URL = 'www.linkedin.com/in/mahdi-rahman-14383420a/';
 export const PORTFOLIO_URL = 'mahdirah0.netlify.app/';
-export const SKILLS_ARRAY = [
-  'TypeScript',
-  'Javascript',
-  'React',
-  'Redux',
-  'HTML',
-  'CSS',
+export const SKILLS = [
+  {
+    title: 'Programming Languages',
+    proficient: ['Javascript', 'Typescript', 'Python'],
+    familiar: ['C++'],
+  },
+  {
+    title: 'Frameworks/Libraries',
+    proficient: ['React', 'Redux', 'Express'],
+    familiar: ['React Native', 'ElectronJS'],
+  },
+];
+export const TECHNOLOGIES = [
+  'Git',
   'TailwindCSS',
   'Styled Components',
-  'Git',
+  'PostgreSQL',
+  'MongoDB',
+  'REST',
+  'GraphQL',
+];
+export const EXPERIENCE = [
+  {
+    title: 'JP Morgan Chance & CO',
+    facts: [
+      'Automated tasks using Python programming language',
+      'Integrated real-time stock price data feed for analysis',
+      'Utilized JPMorgan Chase frameworks and tools',
+      'Displayed data visually for traders',
+    ],
+    date: 'Dec 2021 - Dec 2021',
+    place: 'Virtual Work Experience',
+  },
 ];
 export const EDUCATION = [
   {
@@ -31,7 +54,7 @@ export const EDUCATION = [
     endDate: 'June 2023',
   },
 ];
-export const PROJECT = [
+export const PROJECTS = [
   {
     title: 'Movie App',
     facts: [

@@ -6,12 +6,12 @@ export const Education = () => {
       <h1 className='section-title'>Education</h1>
       <div className='space-y-2'>
         {EDUCATION.map((education) => (
-          <div key={education.subject}>
+          <div key={education.subject} className='text-sm'>
             <div className='flex justify-between'>
               <h3 className='text-'>
                 {education.school} - {education.city}
               </h3>
-              <h1 className='text-sm'>
+              <h1 className='text-xs'>
                 {education.startDate} - {education.endDate}
               </h1>
             </div>

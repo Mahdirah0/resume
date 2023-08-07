@@ -10,6 +10,6 @@ body {
 
 @layer components {
   .section-title {
-    @apply text-lg text-gray-400 uppercase font-bold mb-2;
+    @apply text-gray-400 font-bold;
   }
 }

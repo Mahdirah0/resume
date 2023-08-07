@@ -6,6 +6,7 @@ import { Summary } from './sections/Summary';
 import { Skills } from './sections/Skills';
 import { Education } from './sections/Education';
 import { IconPrinter } from '@tabler/icons-react';
+import { Experience } from './sections/Experience';
 
 export const App = () => {
   const componentRef = useRef(null);
@@ -22,13 +23,14 @@ export const App = () => {
       </div>
       <div className='w-screen h-full flex items-center justify-center'>
         <div
-          className='w-[816px] min-h-[1056px] bg-white relative text-black'
+          className='w-[796px] min-h-[1056px] bg-white relative text-black'
           ref={componentRef}
         >
-          <div className='mx-14 h-full space-y-1'>
+          <div className='mx-14 h-full space-y-2'>
             <Top />
-            <div className='space-y-6'>
+            <div className='space-y-3'>
               <Summary />
+              <Experience />
               <Projects />
               <Skills />
               <Education />

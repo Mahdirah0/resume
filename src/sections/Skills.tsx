@@ -1,17 +1,27 @@
-import { SKILLS_ARRAY } from '../constants';
+import { SKILLS, TECHNOLOGIES } from '../constants';
 
 export const Skills = () => {
   return (
     <div>
       <h1 className='section-title'>Skills</h1>
-      <div className='mx-6'>
-        <ul className='list-disc grid grid-cols-2'>
-          {SKILLS_ARRAY.map((skill) => (
-            <li key={skill} className='text-sm'>
-              {skill}
-            </li>
-          ))}
-        </ul>
+      <div className='space-y-1 text-sm'>
+        {SKILLS.map((skill) => (
+          <div className='flex items-center space-x-2'>
+            <h1 className='font-bold'>{skill.title}:</h1>
+            <div className='flex'>
+              <label className='font-bold mr-1'>Proficient:</label>
+              <div>{skill.proficient.join(', ')}</div>
+            </div>
+            <div className='flex'>
+              <label className='font-bold mx-1'>Familiar:</label>
+              <div>{skill.familiar.join(', ')}</div>
+            </div>
+          </div>
+        ))}
+        <div className='flex items-center'>
+          <label className='font-bold mr-1'>Technologies:</label>
+          <div>{TECHNOLOGIES.join(', ')}</div>
+        </div>
       </div>
     </div>
   );

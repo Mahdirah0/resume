@@ -5,18 +5,24 @@ import {
   IconBrandLinkedin,
   IconMail,
   IconWorldWww,
+  IconMapPinFilled,
 } from '@tabler/icons-react';
 
 export const Top = () => {
   return (
-    <div className='py-6'>
+    <div className='pt-6 space-y-1'>
       <div className='flex'>
-        <h1 className='text-3xl font-bold uppercase mr-4'>Mahdi</h1>
-        <h1 className='text-3xl font-bold uppercase'>Rahman</h1>
+        <h1 className='text-3xl font-bold uppercase'>Mahdi Rahman</h1>
       </div>
-      <div className='flex justify-between underline mt-2'>
+      <div>
+        <h1 className='text-sm flex items-center'>
+          <IconMapPinFilled size={16} />
+          <span className='mx-1'>London, Software Developer</span>
+        </h1>
+      </div>
+      <div className='flex justify-between underline items-center'>
         <span className='flex text-xs items-center justify-center'>
-          <IconMail className='mr-1' /> rahmanmahdi15@gmail.com
+          <IconMail size={16} className='mr-1' /> rahmanmahdi15@gmail.com
         </span>
         <div>|</div>
         <span className=''>
@@ -25,7 +31,7 @@ export const Top = () => {
             target='_blank'
             className='flex text-xs items-center justify-center'
           >
-            <IconBrandGithub className='mr-1' />
+            <IconBrandGithub size={16} className='mr-1' />
             github.com/Mahdirah0
           </Link>
         </span>
@@ -36,7 +42,7 @@ export const Top = () => {
             target='_blank'
             className='flex text-xs items-center justify-center'
           >
-            <IconBrandLinkedin className='mr-1' />
+            <IconBrandLinkedin size={16} className='mr-1' />
             linkedin.com/in/mahdirah0
           </Link>
         </span>
@@ -47,7 +53,7 @@ export const Top = () => {
             target='_blank'
             className='flex text-xs items-center justify-center'
           >
-            <IconWorldWww className='mr-1' />
+            <IconWorldWww size={16} className='mr-1' />
             mahdirah0.netlify.app
           </Link>
         </span>
