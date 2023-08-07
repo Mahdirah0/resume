@@ -40,7 +40,7 @@ export const EDUCATION = [
   {
     school: 'Mulberry UTC',
     qualification: 'A-Level',
-    subject: 'Mathmatics',
+    subject: 'Mathematics',
     city: 'London',
     startDate: 'Sept 2021',
     endDate: 'June 2023',
