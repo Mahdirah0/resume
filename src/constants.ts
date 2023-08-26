@@ -2,6 +2,7 @@ export const HEADING_FONT_SIZE = 12;
 export const GITHUB_URL = 'github.com/Mahdirah0';
 export const LINKED_IN_URL = 'www.linkedin.com/in/mahdi-rahman-14383420a/';
 export const PORTFOLIO_URL = 'mahdirah0.netlify.app/';
+export const PHONE_NUMBER = '07518 954848';
 export const SKILLS = [
   {
     title: 'Programming Languages',
