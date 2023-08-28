@@ -1,6 +1,7 @@
 export const HEADING_FONT_SIZE = 12;
 export const GITHUB_URL = 'github.com/Mahdirah0';
 export const LINKED_IN_URL = 'www.linkedin.com/in/mahdi-rahman-14383420a/';
+export const EMAIL_ADDRESS = 'rahmanmahdi15@gmail.com';
 export const PORTFOLIO_URL = 'mahdirah0.netlify.app/';
 export const PHONE_NUMBER = '07518 954848';
 export const SKILLS = [
@@ -27,9 +28,9 @@ export const EXPERIENCE = [
   {
     title: 'Time Sushi',
     facts: [
-      'Designed user interfaces for web applications using NextJS framework',
-      'Collaborated with backend developer to craft effective APIs',
-      'Conducted thorough testing of codebase using JEST',
+      'Designed user interfaces using React and NextJS',
+      "Collaborated with the backend developer to implement the app's APIs",
+      'Wrote unit tests using the react-testing library',
     ],
     date: 'Apr 2023 - Aug 2023',
     place: 'Freelancer',
@@ -40,7 +41,7 @@ export const EXPERIENCE = [
       'Automated tasks using Python programming language',
       'Integrated real-time stock price data feed for analysis',
       'Utilized JPMorgan Chase frameworks and tools',
-      'Displayed data visually for traders',
+      'Utilized raw data to create impactful visualizations, enhancing data-driven decision-making processes',
     ],
     date: 'Dec 2021 - Dec 2021',
     place: 'Virtual Work Experience',
