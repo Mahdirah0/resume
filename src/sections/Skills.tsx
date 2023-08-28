@@ -1,27 +1,23 @@
-import { SKILLS, TECHNOLOGIES } from '../constants';
+import { IconPointFilled } from '@tabler/icons-react';
+import { SectionTitle } from '../components';
+import { SKILLS } from '../constants';
+import { Fragment } from 'react';
 
 export const Skills = () => {
+  const mappedSkills = SKILLS.map((skill, idx) => (
+    <Fragment key={skill}>
+      <span className='text-sm'>{skill}</span>
+      {idx < SKILLS.length - 1 && (
+        <IconPointFilled key={idx} className='w-2 h-2 text-gray-800' />
+      )}
+    </Fragment>
+  ));
+
   return (
-    <div>
-      <h1 className='section-title'>Skills</h1>
-      <div className='space-y-1 text-sm'>
-        {SKILLS.map((skill) => (
-          <div className='flex items-center space-x-2'>
-            <h1 className='font-bold'>{skill.title}:</h1>
-            <div className='flex'>
-              <label className='font-bold mr-1'>Proficient:</label>
-              <div>{skill.proficient.join(', ')}</div>
-            </div>
-            <div className='flex'>
-              <label className='font-bold mx-1'>Familiar:</label>
-              <div>{skill.familiar.join(', ')}</div>
-            </div>
-          </div>
-        ))}
-        <div className='flex items-center'>
-          <label className='font-bold mr-1'>Technologies:</label>
-          <div>{TECHNOLOGIES.join(', ')}</div>
-        </div>
+    <div className='space-y-2'>
+      <SectionTitle title='Skills' />
+      <div className='flex items-center justify-between flex-wrap gap-2'>
+        {mappedSkills}
       </div>
     </div>
   );

@@ -23,16 +23,16 @@ export const App = () => {
       </div>
       <div className='w-screen h-full flex items-center justify-center'>
         <div
-          className='w-[796px] min-h-[1056px] bg-white relative text-black'
+          className='w-[796px] h-[1056px] bg-white relative text-black'
           ref={componentRef}
         >
           <div className='mx-14 h-full space-y-2'>
             <Top />
             <div className='space-y-3'>
               <Summary />
+              <Skills />
               <Experience />
               <Projects />
-              <Skills />
               <Education />
             </div>
           </div>

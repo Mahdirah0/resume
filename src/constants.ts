@@ -4,27 +4,36 @@ export const LINKED_IN_URL = 'www.linkedin.com/in/mahdi-rahman-14383420a/';
 export const PORTFOLIO_URL = 'mahdirah0.netlify.app/';
 export const PHONE_NUMBER = '07518 954848';
 export const SKILLS = [
-  {
-    title: 'Programming Languages',
-    proficient: ['Javascript', 'Typescript', 'Python'],
-    familiar: ['C++'],
-  },
-  {
-    title: 'Frameworks/Libraries',
-    proficient: ['React', 'Redux', 'Express'],
-    familiar: ['React Native', 'ElectronJS'],
-  },
-];
-export const TECHNOLOGIES = [
-  'Git',
-  'TailwindCSS',
-  'Styled Components',
+  'React',
+  'Redux',
+  'Javascript',
+  'Typescript',
+  'Node',
+  'HTML5',
+  'CSS3',
+  'Express',
+  'React Native',
+  'Tailwind',
+  'Next.js',
+  'Python',
   'PostgreSQL',
-  'MongoDB',
+  'Mongodb',
   'REST',
   'GraphQL',
+  'Prisma',
+  'Git',
 ];
 export const EXPERIENCE = [
+  {
+    title: 'Time Sushi',
+    facts: [
+      'Designed user interfaces for web applications using NextJS framework',
+      'Collaborated with backend developer to craft effective APIs',
+      'Conducted thorough testing of codebase using JEST',
+    ],
+    date: 'Apr 2023 - Aug 2023',
+    place: 'Freelancer',
+  },
   {
     title: 'JP Morgan Chance & CO',
     facts: [
@@ -45,6 +54,7 @@ export const EDUCATION = [
     city: 'London',
     startDate: 'Sept 2021',
     endDate: 'June 2023',
+    grade: 'B',
   },
   {
     school: 'Mulberry UTC',
@@ -53,6 +63,7 @@ export const EDUCATION = [
     city: 'London',
     startDate: 'Sept 2021',
     endDate: 'June 2023',
+    grade: 'A*, A',
   },
 ];
 export const PROJECTS = [
@@ -76,7 +87,7 @@ export const PROJECTS = [
   {
     title: 'Restaurant Landing Website',
     facts: [
-      'Developed a landing website presenting a restaurant menu, captivating story, and upcoming events using HTML and CSS',
+      'Developed a landing website using using HTML and CSS',
       'Ensured a responsive design to deliver an optimal experience across various devices',
     ],
     link: 'github.com/Mahdirah0/restaurant-website',
@@ -89,12 +100,12 @@ export const PROJECTS = [
     ],
     link: 'github.com/Mahdirah0/portfolio',
   },
-  {
-    title: 'Resume Website',
-    facts: [
-      'Created a CV/Resume website using React for the user interface',
-      'Styled the website with Tailwind CSS for an appealing design',
-    ],
-    link: 'github.com/Mahdirah0/resume',
-  },
+  // {
+  //   title: 'Resume Website',
+  //   facts: [
+  //     'Created a CV/Resume website using React for the user interface',
+  //     'Styled the website with Tailwind CSS for an appealing design',
+  //   ],
+  //   link: 'github.com/Mahdirah0/resume',
+  // },
 ];

@@ -1,10 +1,11 @@
+import { SectionTitle } from '../components';
 import { EXPERIENCE } from '../constants';
 
 export const Experience = () => {
   return (
-    <div>
-      <h1 className='section-title'>Experience</h1>
-      <div>
+    <div className='space-y-2'>
+      <SectionTitle title='Experience' />
+      <div className='space-y-2'>
         {EXPERIENCE.map((item) => (
           <div>
             <div className='flex justify-between'>

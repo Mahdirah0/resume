@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
 import { PROJECTS } from '../constants';
+import { SectionTitle } from '../components';
 
 export const Projects = () => {
   return (
     <div className=''>
-      <h1 className='section-title'>Projects</h1>
+      <SectionTitle title='Projects' />
       <div className='space-y-1'>
         {PROJECTS.map((project) => (
           <div key={project.title}>

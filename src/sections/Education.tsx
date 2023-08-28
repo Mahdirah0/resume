@@ -1,9 +1,10 @@
+import { SectionTitle } from '../components';
 import { EDUCATION } from '../constants';
 
 export const Education = () => {
   return (
     <div className='pb-6'>
-      <h1 className='section-title'>Education</h1>
+      <SectionTitle title='Education' />
       <div className='space-y-2'>
         {EDUCATION.map((education) => (
           <div key={education.subject} className='text-sm'>
@@ -18,7 +19,8 @@ export const Education = () => {
             <div>
               <h3>
                 <span className='font-bold'>{education.qualification}: </span>{' '}
-                {education.subject}
+                {education.subject} - <span className='font-bold'>Grade: </span>{' '}
+                {education.grade}
               </h3>
             </div>
           </div>
