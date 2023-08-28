@@ -7,7 +7,7 @@ export const Experience = () => {
       <SectionTitle title='Experience' />
       <div className='space-y-2'>
         {EXPERIENCE.map((item) => (
-          <div>
+          <div key={item.place}>
             <div className='flex justify-between'>
               <h1 className='text-sm'>
                 <span className='font-bold'> {item.title} </span> - {item.place}
@@ -17,7 +17,9 @@ export const Experience = () => {
             <div>
               <ul>
                 {item.facts.map((item) => (
-                  <li className='text-[13px] list-disc ml-6'>{item}</li>
+                  <li key={item} className='text-[13px] list-disc ml-6'>
+                    {item}
+                  </li>
                 ))}
               </ul>
             </div>
