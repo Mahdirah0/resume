@@ -29,10 +29,11 @@ export const EXPERIENCE = [
     title: 'Time Sushi',
     facts: [
       'Designed user interfaces using React and NextJS',
-      "Collaborated with the backend developer to implement the app's APIs",
+      'Collaborated with the backend developer to implement APIs',
       'Wrote unit tests using the react-testing library',
+      'Worked closely with the client to ensure deliverables',
     ],
-    date: 'Apr 2023 - Aug 2023',
+    date: 'June 2023 - Aug 2023',
     place: 'Freelancer',
   },
   {
