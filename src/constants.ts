@@ -26,6 +26,17 @@ export const SKILLS = [
 ];
 export const EXPERIENCE = [
   {
+    title: 'Time Sushi Rebrand',
+    facts: [
+      'Re-developed the website using Nextjs',
+      'Integrated api calls using Tenstack Query',
+      'Helped backend developer with stripe integration',
+      'Converted Figma design into a interactive website',
+    ],
+    date: 'June 2023 - Aug 2023',
+    place: 'Freelancer',
+  },
+  {
     title: 'Time Sushi',
     facts: [
       'Designed user interfaces using React and NextJS',
@@ -86,28 +97,4 @@ export const PROJECTS = [
     ],
     link: 'github.com/Mahdirah0/pathfinding',
   },
-  {
-    title: 'Restaurant Landing Website',
-    facts: [
-      'Developed a landing website using using HTML and CSS',
-      'Ensured a responsive design to deliver an optimal experience across various devices',
-    ],
-    link: 'github.com/Mahdirah0/restaurant-website',
-  },
-  {
-    title: 'Personal Portfolio',
-    facts: [
-      'Developed a Personal Portfolio using React, highlighting personal projects',
-      'Styled the website with Tailwind CSS for a modern and appealing look',
-    ],
-    link: 'github.com/Mahdirah0/portfolio',
-  },
-  // {
-  //   title: 'Resume Website',
-  //   facts: [
-  //     'Created a CV/Resume website using React for the user interface',
-  //     'Styled the website with Tailwind CSS for an appealing design',
-  //   ],
-  //   link: 'github.com/Mahdirah0/resume',
-  // },
 ];
