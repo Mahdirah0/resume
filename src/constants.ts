@@ -33,8 +33,9 @@ export const EXPERIENCE = [
       'Helped backend developer with stripe integration',
       'Converted Figma design into a interactive website',
     ],
-    date: 'June 2023 - Aug 2023',
+    date: 'Sept 2023 - Oct 2023',
     place: 'Freelancer',
+    link: 'https://www.timesushi.co.uk/'
   },
   {
     title: 'Time Sushi',

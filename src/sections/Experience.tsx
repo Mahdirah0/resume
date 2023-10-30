@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { SectionTitle } from '../components';
 import { EXPERIENCE } from '../constants';
 
@@ -9,9 +10,14 @@ export const Experience = () => {
         {EXPERIENCE.map((item) => (
           <div key={item.place}>
             <div className='flex justify-between'>
-              <h1 className='text-sm'>
-                <span className='font-bold'> {item.title} </span> - {item.place}
-              </h1>
+              <div className='flex space-x-2 justify-center items-center'>
+                <h1 className='text-sm'>
+                  <span className='font-bold'> {item.title} </span> - {item.place}
+                </h1>
+                <Link to={`${item.link}`} target='_blank'>
+                  <span className='text-xs font-light'>({item.link})</span>
+                </Link>
+              </div>
               <h1 className='text-xs'>{item.date}</h1>
             </div>
             <div>
