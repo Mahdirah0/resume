@@ -14,9 +14,11 @@ export const Experience = () => {
                 <h1 className='text-sm'>
                   <span className='font-bold'> {item.title} </span> - {item.place}
                 </h1>
-                <Link to={`${item.link}`} target='_blank'>
-                  <span className='text-xs font-light'>({item.link})</span>
-                </Link>
+                {item.link && 
+                  <Link to={`${item.link}`} target='_blank'>
+                    <span className='text-xs font-light'>({item.link})</span>
+                  </Link>
+                }
               </div>
               <h1 className='text-xs'>{item.date}</h1>
             </div>
