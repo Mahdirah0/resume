@@ -12,9 +12,9 @@ export const Education = () => {
               <h3 className='text-'>
                 {education.school} - {education.city}
               </h3>
-              <h1 className='text-xs'>
+              <h2 className='text-xs'>
                 {education.startDate} - {education.endDate}
-              </h1>
+              </h2>
             </div>
             <div>
               <h3>

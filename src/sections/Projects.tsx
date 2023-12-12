@@ -10,7 +10,7 @@ export const Projects = () => {
         {PROJECTS.map((project) => (
           <div key={project.title}>
             <div className='flex items-center'>
-              <h1 className='font-bold mr-2 text-sm'>{project.title}</h1>
+              <h2 className='font-bold mr-2 text-sm'>{project.title}</h2>
               <Link to={`https://${project.link}`} target='_blank'>
                 <span className='text-xs font-light'>({project.link})</span>
               </Link>

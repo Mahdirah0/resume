@@ -26,32 +26,43 @@ export const SKILLS = [
 ];
 export const EXPERIENCE = [
   {
+    title: 'Developer',
+    facts: [
+      'Developing web applications utilising Next.js framework',
+      'Collaborating with backend developers for efficient API integration',
+      'Engaging directly with clients to ensure seamless product delivery',
+      'Building REST APIs using Express.js',
+    ],
+    date: 'Oct 2023 - Present',
+    place: 'Freelance',
+  },
+  {
     title: 'Time Sushi Rebrand',
     facts: [
-      'Re-developed the website using Nextjs',
-      'Integrated api calls using Tenstack Query',
-      'Helped backend developer with stripe integration',
-      'Converted Figma design into a interactive website',
+      'Redesigned the website with Next.js improving performance and user experience',
+      'Implemented API calls efficiently using Tenstack Query',
+      'Collaborated with the backend team to facilitate Stripe integration',
+      'Transformed Figma designs into a fully interactive and responsive website',
     ],
     date: 'Sept 2023 - Oct 2023',
-    place: 'Freelancer',
-    link: 'https://www.timesushi.co.uk/'
+    place: 'Freelance',
+    link: 'https://www.timesushi.co.uk/',
   },
   {
     title: 'Time Sushi',
     facts: [
-      'Designed user interfaces using React and NextJS',
+      'Designed user interfaces using Next.js',
       'Collaborated with the backend developer to implement APIs',
       'Wrote unit tests using the react-testing library',
       'Worked closely with the client to ensure deliverables',
     ],
     date: 'June 2023 - Aug 2023',
-    place: 'Freelancer',
+    place: 'Freelance',
   },
   {
     title: 'JP Morgan Chance & CO',
     facts: [
-      'Automated tasks using Python programming language',
+      'Crafted user interfaces employing React.js and Next.js for optimal user engagement and efficiency.',
       'Integrated real-time stock price data feed for analysis',
       'Utilized JPMorgan Chase frameworks and tools',
       'Utilized raw data to create impactful visualizations, enhancing data-driven decision-making processes',
